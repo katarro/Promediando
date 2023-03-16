@@ -1,0 +1,46 @@
+.form {
+  border: solid 1px rgba(128, 128, 128, 0.5);
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.nota {
+  display: flex; /* Activamos el modelo flexible */
+  justify-content: center; /* Centramos horizontalmente */
+  align-items: center;
+}
+.notas {
+  display: flex;
+  justify-content: space-around;
+}
+.name {
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.aprobado {
+  border: 2px solid green;
+}
+.reprobado {
+  border: 2px solid red;
+}
+.examen {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+  width: 85%;
+}
+
+.contenedor-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
